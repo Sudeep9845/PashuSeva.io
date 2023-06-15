@@ -201,10 +201,8 @@ p{
 /* page4 */
 .four .content
 {
-    background: #1488CC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }    
+    background-color: rgb(41 44 45);
+}    
 li
 {
     list-style: none;
@@ -220,34 +218,44 @@ li
  width: auto;
 }
 .six .content{
-    background: #9796f0;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: rgb(41 44 45);
 
 }
 footer{
     height: 20vh;
-    background: url(https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background: url(https://images.unsplash.com/photo-1586114728926-fc10c981b7d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
     background-position: center;
     background-size: cover;
+    background-repeat: repeat;
     width: 100%;
 
 }
 footer .end
 {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+   gap: 10px;
+   padding: 4px;
+   
+    
+}
+footer .text
+{
     height: 20vh;
     text-align: center;
     line-height: 20px;
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif;
-    
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size:16px;
 }
 .ch
 {
-    color: whitesmoke;
+    color: rgb(83, 80, 80);
     text-decoration:underline black;
 }
 
@@ -290,6 +298,18 @@ p
 {
     padding: 5px;
     padding-top: 10px;
+}
+footer .text
+{
+    
+    letter-spacing: 1px;
+    
+    font-size: 15px;
+}
+footer .logo
+{
+    width: 60px;
+    padding: 0;
 }
 }
 
@@ -342,4 +362,17 @@ p
     padding-top: 10px;
     padding: 5px;
 }
+footer .text
+{
+    
+    letter-spacing: 1px;
+    
+    font-size: 10px;
+}
+footer .logo
+{
+    width: 40px;
+    padding: 0;
+}
+
 }
